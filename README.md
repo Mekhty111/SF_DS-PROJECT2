@@ -1,64 +1,64 @@
-# Проект 2. Очистка и анализ вакансий на HH.ru (PostgreSQL)
+# hh-postgres-analyzer: Vacancy Data Cleaning and Analysis on HH.ru using PostgreSQL
 
 ---
 
-## 📚 Оглавление
+## 📚 Table of Contents
 
-- [🔎 Описание проекта](#about)  
-- [🎯 Какой кейс решаем](#case)  
-- [📊 Краткая информация о данных](#data_info)  
-- [🛠 Этапы работы над проектом](#requirements)  
-- [📈 Метрики качества](#metrics)  
-- [🧩 Что практикуем](#practise)  
-- [💡 Выводы](#finaly)  
-
----
-
-## <a id="about"></a>🔎 Описание проекта  
-Анализ вакансий с сайта HH.ru с использованием PostgreSQL. Проект включает очистку данных, выявление закономерностей, создание новых признаков и агрегирование данных для улучшения качества анализа.
+- [🔎 Project Description](#about)  
+- [🎯 Problem Statement](#case)  
+- [📊 Data Overview](#data_info)  
+- [🛠 Project Workflow](#requirements)  
+- [📈 Quality Metrics](#metrics)  
+- [🧩 Skills Practiced](#practise)  
+- [💡 Conclusions](#finaly)  
 
 ---
 
-## <a id="case"></a>🎯 Какой кейс решаем?  
-Прочесть, проанализировать и создать новый набор данных на основе текущих с помощью манипулирования и агрегирования данных.
+## <a id="about"></a>🔎 Project Description  
+Vacancy data analysis from HH.ru using PostgreSQL. This project involves data cleaning, pattern discovery, feature engineering, and aggregation for enhanced analysis quality.
 
 ---
 
-## <a id="data_info"></a>📊 Краткая информация о данных  
-- Данные о вакансиях с сайта HH.ru  
-- Информация о работодателях  
-- Данные о зарплатах, требованиях и условиях работы  
+## <a id="case"></a>🎯 Problem Statement  
+Read, analyze, and create a new dataset based on the current data by manipulating and aggregating it.
 
 ---
 
-## <a id="requirements"></a>🛠 Этапы работы над проектом  
-1. Прочесть датафрейм  
-2. Знакомство с данными  
-3. Предварительный анализ данных  
-4. Детальный анализ вакансий  
-5. Анализ работодателей  
-6. Предметный анализ  
-7. Сделать окончательные выводы по всей таблице с учетом промежуточных выводов  
+## <a id="data_info"></a>📊 Data Overview  
+- Vacancy data from HH.ru  
+- Employer information  
+- Data on salaries, requirements, and working conditions  
 
 ---
 
-## <a id="metrics"></a>📈 Метрики качества  
-В качестве метрики качества можно привести очистку таблиц от выбросов и последующую нормализацию графиков.
+## <a id="requirements"></a>🛠 Project Workflow  
+1. Load the dataframe  
+2. Get acquainted with the data  
+3. Perform preliminary data analysis  
+4. Detailed vacancy analysis  
+5. Employer analysis  
+6. Subject-matter analysis  
+7. Draw final conclusions taking intermediate findings into account  
 
 ---
 
-## <a id="practise"></a>🧩 Что практикуем?  
-- Чтение баз данных  
-- Умение писать правильные, оптимизированные SQL-запросы  
-- Агрегирование данных различных типов  
-- Объединение, группировка и соединение нескольких таблиц  
+## <a id="metrics"></a>📈 Quality Metrics  
+Quality metrics include removing outliers from tables and normalizing graphs accordingly.
 
 ---
 
-## <a id="finaly"></a>💡 Выводы  
-- :arrow_up: [Конец ноутбука-проекта](Project/Project_2_Ноутбук_шаблон.ipynb)  
+## <a id="practise"></a>🧩 Skills Practiced  
+- Reading databases  
+- Writing correct and optimized SQL queries  
+- Aggregating various data types  
+- Joining, grouping, and merging multiple tables  
 
 ---
 
-### Если информация по этому проекту покажется вам интересной или полезной, буду очень благодарен за ⭐️⭐️⭐️ в репозитории и поддержку моего профиля!
-Такой формат оглавления и структуры будет красивым, удобным, с понятными иконками и аккуратной навигацией по README.
+## <a id="finaly"></a>💡 Conclusions  
+- :arrow_up: [Project notebook completion](Project/Project_2_Ноутбук_шаблон.ipynb)
+
+---
+
+### If you find this project useful or interesting, I would greatly appreciate a ⭐️⭐️⭐️ on the repository and support for my profile!
+
